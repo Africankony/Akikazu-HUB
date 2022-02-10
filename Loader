@@ -1,0 +1,12 @@
+akikazu=false
+local function load(l)
+loadstring(game:HttpGet(l,true))()
+akikazu=true
+end
+if game.PlaceId==8592863835 then
+load("https://raw.githubusercontent.com/ZaRdoOx/Akikazu-HUB/main/Mgnet/Simulator2/kezkjfjk")
+end
+if akikazu==false then
+load("")
+end
+-- // skidded from a skid that skidded a skid that skided
