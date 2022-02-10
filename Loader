@@ -6,6 +6,24 @@ end
 if game.PlaceId==8592863835 then
 load("https://raw.githubusercontent.com/ZaRdoOx/Akikazu-HUB/main/Mgnet/Simulator2/kezkjfjk")
 end
+if game.PlaceId==8554378337 then
+load("https://raw.githubusercontent.com/ZaRdoOx/weapon-figting/main/Weapon-Fighting-Simulator")
+end
+if game.PlaceId==7842028704 then
+load("https://raw.githubusercontent.com/ZaRdoOx/Akikazu-HUB/main/Anime%20Clash%2BSimulator")
+end
+if game.PlaceId==6792241488 then
+load("https://raw.githubusercontent.com/ZaRdoOx/Akikazu-HUB/main/Weight-Lifting-Simulator")
+end
+if game.PlaceId==6766156863 then
+load("https://raw.githubusercontent.com/ZaRdoOx/Akikazu-HUB/main/Strongman-Simulator")
+end
+if game.PlaceId==6953291455 then
+load("https://raw.githubusercontent.com/ZaRdoOx/eating-sim/main/Eating-Simulator")
+end
+if game.PlaceId==7047488135 then
+load("https://raw.githubusercontent.com/ZaRdoOx/speed-sim/main/Speed-Simulator")
+end
 if akikazu==false then
 load("")
 end
