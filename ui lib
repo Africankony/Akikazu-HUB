@@ -1207,49 +1207,5 @@ return Tabs
 end -- Window
 --return VLIB
 
-local win = VLIB:Window("PJM", "PSX")
 
-local TabFarm = win:Tab("Autofarm")
-local TabFarm2 = win:Tab("Autofarm2")
 
-local themes = {
-   Background = Color3.fromRGB(24, 24, 24), 
-   LightContrast = Color3.fromRGB(20, 20, 20), 
-   DarkContrast = Color3.fromRGB(14, 14, 14),  
-   TextColor = Color3.fromRGB(255, 255, 255)
- }
-
-TabFarm:Button("Test Button", function()
-   VLIB:Notification("Hello", "Test")
-end)
-   
-   TabFarm:Toggle("Autofarm", false, function(t)
-       vil = t
-       while vil do wait() 
-         print("hi")
-       end
-       end)
-   
-       local hi = {
-         'hello',
-         'wtf'
-     }
-     TabFarm:Dropdown("hi",hi , function(v)
-         
-         end)
-   
-         TabFarm:Slider("Walk Speed", 1, 400, 1, function(v)
-            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-         end)
-   
-         TabFarm:line()
-   
-         TabFarm:Label("hi".. game.Players.LocalPlayer.Name)
-
-         TabFarm2:Textbox("hello", "hi", function(t)
-            if t == "hi" then
-                  print("wtf")
-                end
-           end)
-
-         TabFarm2:Label("hi".. game.Players.LocalPlayer.Name)
